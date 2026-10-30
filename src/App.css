@@ -1,0 +1,108 @@
+/* App.css */
+.contenedor-app {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: #faf8f5;
+  color: #1a1a1a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Estilos del Menú */
+.menu-navegacion {
+  background-color: #111111;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.logo {
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #d4af37;
+  margin: 0;
+}
+
+.menu-navegacion ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.menu-navegacion li {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.menu-navegacion li:hover {
+  color: #d4af37;
+}
+
+/* Estilos de la Sección Principal */
+.seccion-principal {
+  padding: 60px 20px;
+  background-color: #faf8f5;
+  flex: 1;
+}
+
+.seccion-principal h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #111111;
+}
+
+.seccion-principal p {
+  font-size: 1.1rem;
+  color: #555555;
+  margin-bottom: 20px;
+}
+
+.imagen-destacada {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 12px;
+  margin: 20px 0;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Botón con efecto Hover */
+.boton-accion {
+  background-color: #d4af37;
+  color: #ffffff;
+  border: none;
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+  box-shadow: 0px 4px 10px rgba(212, 175, 55, 0.3);
+}
+
+.boton-accion:hover {
+  background-color: #b89728;
+  transform: scale(1.05);
+}
+
+.mensaje-sorpresa {
+  margin-top: 25px;
+  font-size: 18px;
+  color: #b89728;
+  font-weight: bold;
+}
+
+/* Estilos del Footer */
+.pie-pagina {
+  background-color: #111111;
+  color: white;
+  padding: 30px;
+  font-size: 0.9rem;
+  margin-top: auto;
+}
